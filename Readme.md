@@ -18,32 +18,55 @@ It uses Python-based scripts for **database setup, data insertion, server operat
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/sanjanaGhadge/Smart_Hackathon.git
-   cd Smart_Hackathon
-Create and activate virtual environment (optional but recommended)
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
+   ```
 
-python -m venv venv
-source venv/bin/activate     # On Linux/Mac
-venv\Scripts\activate        # On Windows
-Install dependencies
+2. **Create and activate virtual environment (optional but recommended)**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate     # On Linux/Mac
+   venv\Scripts\activate        # On Windows
+   ```
 
-pip install -r requirements.txt
-🛠️ Usage
-Step 1: Initialize Database
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-python setup_db.py
-Step 2: Insert Student Records
+---
 
-python insert_students.py
-Step 3: Start Backend Server
+## 🛠️ Usage
 
-python scanning.py
-Step 4: Run Frontend Application
+1. **Step 1: Initialize Database**
+   ```bash
+   python setup_db.py
+   ```
 
-python app2.py
-📌 Notes
-Ensure that the database is created using setup_db.py before running other scripts.
+2. **Step 2: Insert Student Records**
+   ```bash
+   python insert_students.py
+   ```
 
-insert_students.py should be run only once after initial setup (or whenever you want to add bulk student data).
+3. **Step 3: Start Backend Server**
+   ```bash
+   python scanning.py
+   ```
 
-Keep the server (scanning.py) running while using the frontend (app2.py).
+4. **Step 4: Run Frontend Application**
+   ```bash
+   python app2.py
+   ```
+
+---
+
+## 📌 Notes
+
+- Ensure that the database is created using `setup_db.py` before running other scripts.  
+- `insert_students.py` should be run only once after initial setup (or whenever you want to add bulk student data).  
+- Keep the **server (`scanning.py`) running** while using the frontend (`app2.py`).  
+
+---
+
+## 👩‍💻 Authors
+- Team <Your Team Name> – Smart India Hackathon  
